@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indah Oktav</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="jumbotron" id="home">
+        <div class="jumbotron-content">
+          <img src="images/indah-removebg-preview.png" alt="Logo" srcset="" />
+          <h2 class="variative-font">Indah Oktaviana</h2>
+          <h4>Web Developer Wanna Be</h4>
+          <br />
+          <span class="button">
+            <a href="#about" rel="noopener noreferrer">more</a>
+          </span>
+        </div>
+      </div>
+      <!-- NAVBAR -->
+      <nav id="main-nav">
+        <ul>
+          <li class="right">
+            <a href="#about">Menu</a>
+            <ul class="dropdown">
+              <li><a href="#about">About</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="left ">indahoktav</a></li>
+        </ul>
+      </nav>
+      <!-- NAVBAR END -->
+    </header> 
+    <!-- HEADER END -->
+
+    <!-- MAIN PAGE -->
+    <main>
+      <div class="page odd" id="about">
+        <div class="container">
+          <h2 class="variative-font">About Me</h2>
+          <aside>
+            <img src="images/indah.jpeg" style="border-radius: 50%;" alt="" />
+            <p>
+              <br>
+              <h4><a href="https://www.dicoding.com/users/indahoktav" target="_blank" class="button" style="color: var(--main-bg-color);">indahoktav</a></h4>
+              <br>
+              <h4>Bogor, Jawa Barat</h4>
+            </p>
+          </aside>
+          <article class="about-article container">
+            <p>
+              Nama saya Indah Oktaviana. Saya biasa dipanggil dengan nama
+              "Indah". Domisili di Bogor, Jawa Barat. Saya adalah seorang
+              lulusan SMA tahun 2020. Saya tertarik belajar programming, terutama website.
+            </p>
+            <br/>
+            <p>
+              Saya ingin sekali menjadi seorang fullstack web developer. Saat ini saya masih belajar secara mandiri melalu beberapa media, seperti YouTube dan website. Dicoding merupakan salah satu website yang sangat membantu saya dalam belajar. Semoga saya bisa menyelesaikan kelas ini. Terima kasih banyak <a  href="https://www.dicoding.com/" target="_blank">Dicoding</a>.
+            </p>
+          </article>
+        </div>
+      </div>
+      <div class="page even" id="gallery">
+        <h2 class="variative-font">Gallery</h2>
+        <div class="card-container">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1515965885361-f1e0095517ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            />
+            <div class="card-content">
+              <p>Semoga segera punya Karya 1</p>
+              <button class="button">
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                  >more</a
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1515965885361-f1e0095517ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            />
+            <div class="card-content">
+              <p>Semoga segera punya Karya 2</p>
+              <button class="button">
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                  >more</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1515965885361-f1e0095517ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            />
+            <div class="card-content">
+              <p>Semoga segera punya Karya 3</p>
+              <button class="button">
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                  >more</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1515965885361-f1e0095517ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            />
+            <div class="card-content">
+              <p>Semoga segera punya Karya 4</p>
+              <button class="button">
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                  >more</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page odd" id="contact">
+        <h2 class="variative-font">Contact</h2>
+
+        <div class="form-container">
+          <form action="">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="indonesia">Indonesia</option>
+              <option value="asia">Asia</option>
+              <option value="other">Others</option>
+            </select>
+
+            <label for="subject">Message</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <!-- MAIN PAGE END -->
+
+    <!-- FOOTER -->
+    <footer class="even">
+      <h2 class="variative-font">Thank You</h2>
+      <p>&copy Indah Oktaviana 2022</p>
+    </footer>
+    <!-- FOOTER END -->
+    <script src="/src/script.js"></script>
+  </body>
+</html>
